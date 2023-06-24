@@ -1,22 +1,11 @@
 import React, {useState} from "react";
 
 
-
-export default function Container() {
-    const [currentPage, setCurrentPage] = useState();
-
-    const renderPage = () => {
-        
-      };
-
-      const handlePageChange = (page) => setCurrentPage(page);
-
+const Container = () => {
+   
       return (
         <div>
        
-          <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-
-          {renderPage()}
     
         </div>
     
@@ -24,4 +13,6 @@ export default function Container() {
 
     
 }
+
+export default Container;
 
