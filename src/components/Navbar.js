@@ -7,15 +7,18 @@ return(
    <header>
         <nav>
             <div>
-                <a className="navitems">Miguel Villagomez</a> 
+                <a className="navItems">Miguel Villagomez</a> 
             </div>
 
             <div>
-                <a className="navitems">Home</a>
-                <a className="navitems">About Me</a>
-                <a className="navitems">Contact</a>
-                <a className="navitems">Portfolio</a>
+                <a className="navItems">Home</a>
+                <a className="navItems">About Me</a>
+                <a className="navItems">Contact</a>
+                <a className="navItems">Portfolio</a>
+            </div>
 
+            <div>
+                <a className="navItems"> Contact Me</a>
             </div>
         </nav>
 

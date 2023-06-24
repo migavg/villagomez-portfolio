@@ -3,7 +3,7 @@ import React, {useState} from "react";
 
 
 export default function Container() {
-    const [currentPage, setCurrentPage] = useState('AboutMe');
+    const [currentPage, setCurrentPage] = useState();
 
     const renderPage = () => {
         

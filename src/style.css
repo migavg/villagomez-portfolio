@@ -5,15 +5,18 @@ box-sizing: border-box;
 }
 
 nav{
+    margin: 2rem 10rem 2rem 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(25, 20, 125);
     color:white;
     font-size: larger;
+    height: 3rem;
+    border-radius: 15px;
     
 }
-
-nav .navitems {
+nav .navItems {
     padding: 1rem;
 }
+
