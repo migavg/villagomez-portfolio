@@ -25,3 +25,11 @@ nav .navItems {
     background-color: aqua;
     justify-content: space-around;
 }
+
+
+@media (max-width:1050px) {
+    nav {
+        background-color:red;
+    }
+    
+}
