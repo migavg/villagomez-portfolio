@@ -20,3 +20,8 @@ nav .navItems {
     padding: 1rem;
 }
 
+.hero {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+}

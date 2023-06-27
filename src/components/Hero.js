@@ -4,8 +4,8 @@ const Hero = () => {
 
     return(
 
-        <div>
-            Hello Hero!
+        <div className="hero">
+            <p>Hello Hero!</p>
         </div>
     )
 
