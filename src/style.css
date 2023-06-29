@@ -26,10 +26,17 @@ nav .navItems {
     justify-content: space-around;
 }
 
+.container {
+    display: flex;
+    background-color: bisque;
+}
 
 @media (max-width:1050px) {
     nav {
         background-color:red;
+
     }
-    
+   .navItems {
+    text-align: center;
+   } 
 }
